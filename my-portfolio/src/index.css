@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-color {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
+
+body {
+    background-color: black;
+}
+
+.bg-primary-color {
+    @apply  bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
+
+
+
+/* Make sure the body fills the full height of the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Flexbox layout for the app */
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes the full height of the screen */
+  }
+  
+  /* Ensure that the content div grows and pushes the footer down */
+  .content {
+    flex-grow: 1;
+    padding-top: 100px; /* Adjust based on your navbar height */
+  }
+  
