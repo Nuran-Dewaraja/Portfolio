@@ -6,6 +6,10 @@ import Chatbot from '../assets/chatbot.png'
 import FinanceTracker from '../assets/financetracker.png'
 import EducationManagementSystem from '../assets/educationmanagementsystem.png'
 import SalesDashboard from '../assets/sales-dashboard.png'
+import HospitalManagementSystem from '../assets/Hospital-Management-System.png'
+import Laboratory from '../assets/laboratory.png'
+import MovieZone from '../assets/MovieZone.png'
+
 import { motion } from 'framer-motion'
 
 
@@ -111,6 +115,48 @@ const Work = () => {
                 <span className='text-2xl font-bold text-white tracking-wider'>Sales Dashboard</span>
                 <div className='pt-8 text-center'>
                     <a href="https://github.com/Nuran-Dewaraja/Sales-Dashboard-front-end-.git">
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden 
+                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            mx-auto content-div h-[200px] bg-cover relative'>
+                <img src={HospitalManagementSystem} layout="fill" objectFit="cover" alt="" />
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                <span className='text-2xl font-bold text-white tracking-wider'>Hospital Management System</span>
+                <div className='pt-8 text-center'>
+                    <a href="https://github.com/Nuran-Dewaraja/Sakura-Hospital-System.git">
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden 
+                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            mx-auto content-div h-[200px] bg-cover relative'>
+                <img src={Laboratory} layout="fill" objectFit="cover" alt="" />
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                <span className='text-2xl font-bold text-white tracking-wider'>Laboratory System</span>
+                <div className='pt-8 text-center'>
+                    <a href="https://github.com/Nuran-Dewaraja/Lab-Report.git">
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden 
+                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            mx-auto content-div h-[200px] bg-cover relative'>
+                <img src={MovieZone} layout="fill" objectFit="cover" alt="" />
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                <span className='text-2xl font-bold text-white tracking-wider'>MovieZone</span>
+                <div className='pt-8 text-center'>
+                    <a href="https://github.com/Nuran-Dewaraja/Lab-Report.git">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                     </a>
                 </div>
